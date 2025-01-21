@@ -292,11 +292,14 @@ width: 30%;
     display: none;
   }
   #submenu li{
+    display: none;
     list-style: none;
   }
-  #hamburger{
+  .hamburger-menu, #hamburger{
     display: block;
-    color: black;
+    width: 25px;
+    margin-top: 0.5rem;
+    cursor: pointer;
   }
   .section-1 .content {
     order: 2; 
@@ -332,7 +335,7 @@ width: 30%;
   }
   .our-stories{
     font-size: 200%;
-    width: 200%;
+    width: 150%;
   }
   .horizontal{
     display: none;
@@ -341,10 +344,10 @@ width: 30%;
   .two,
   .three,
   .four {
-    width: 10rem;
+    width: 13rem;
   }
   .gallery{
-    margin-left: -13.5rem;
+    margin-left: -15.5rem;
   }
   .footer{
     flex-direction: column;
